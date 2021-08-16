@@ -32,7 +32,7 @@ stage ('Build1')
      stage ('Deployment ') 
 {
     steps {
-       node ('K8S-MASTER') 
+       node ('abhinay') 
 
     {
      echo "Deployment  has been started " 
